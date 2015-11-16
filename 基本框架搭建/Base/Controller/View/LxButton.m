@@ -29,7 +29,7 @@
     [button setTitle:@"Five" forState:UIControlStateNormal];
     
     [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
-    button.titleLabel.font = [UIFont systemFontOfSize:9.5];
+    button.titleLabel.font = [UIFont systemFontOfSize:10];
     
     [button sizeToFit];
     
