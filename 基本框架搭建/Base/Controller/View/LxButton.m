@@ -28,7 +28,7 @@
     [button setImage:[UIImage imageNamed:@"post_normal"] forState:UIControlStateNormal];
     [button setTitle:@"Five" forState:UIControlStateNormal];
     
-    [button setTitleColor:[UIColor grayColor] forState:UIControlStateNormal];
+    [button setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
     button.titleLabel.font = [UIFont systemFontOfSize:10];
     
     [button sizeToFit];

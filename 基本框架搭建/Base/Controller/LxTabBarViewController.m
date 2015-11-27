@@ -90,15 +90,14 @@
     viewController.tabBarItem.image = [UIImage imageNamed:image];
     
     //使用图片的原始渲染效果
-    viewController.tabBarItem.selectedImage = [[UIImage imageNamed:selectedImage] imageWithRenderingMode:UIImageRenderingModeAlwaysOriginal];
+    viewController.tabBarItem.selectedImage = [UIImage imageNamed:selectedImage];
     
     //设置文字样式
     NSMutableDictionary *textAttrs = [NSMutableDictionary dictionary];
-    textAttrs[NSForegroundColorAttributeName] = [UIColor grayColor];
+    textAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     [viewController.tabBarItem setTitleTextAttributes:textAttrs forState:UIControlStateNormal];
     
     NSMutableDictionary *selectAttrs = [NSMutableDictionary dictionary];
-    
     selectAttrs[NSForegroundColorAttributeName] = [UIColor blackColor];
     [viewController.tabBarItem setTitleTextAttributes:selectAttrs forState:UIControlStateSelected];
     
